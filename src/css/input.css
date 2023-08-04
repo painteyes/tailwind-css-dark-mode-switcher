@@ -9,7 +9,7 @@
 body {
     margin: 3rem;
     font-family: sans-serif;
-    height: 150vh; 
+    height: 150vh;
 }
   
 h1 {
@@ -46,7 +46,7 @@ textarea {
 }
   
 button {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem;
 }
   
 .link {

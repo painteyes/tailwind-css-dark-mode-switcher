@@ -534,10 +534,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.block {
-  display: block;
-}
-
 .flex {
   display: flex;
 }
@@ -599,6 +595,11 @@ video {
 .border-gray-900 {
   --tw-border-opacity: 1;
   border-color: rgb(17 24 39 / var(--tw-border-opacity));
+}
+
+.bg-slate-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -697,10 +698,6 @@ body {
   height: 150vh;
 }
 
-body > * {
-  margin-bottom: 2.5rem;
-}
-
 h1 {
   margin: 2rem;
 }
@@ -708,6 +705,10 @@ h1 {
 p {
   margin-left: 1rem;
   font-style: italic;
+}
+
+form {
+  margin-top: 2.5rem;
 }
 
 form p {
@@ -731,7 +732,7 @@ textarea {
 }
 
 button {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
 }
 
 .link {
@@ -753,11 +754,6 @@ button {
   form fieldset {
     border-color: white;
   }
-}
-
-.hover\:bg-gray-50:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
 :is(.dark .dark\:bg-slate-800) {
